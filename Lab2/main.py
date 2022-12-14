@@ -1,15 +1,13 @@
 import json
-from my_class import *
+from my_class import  Person
 
 
 def load_to_json(filename):
-    with open(filename, 'r') as file:
-        return json.load(file)
+        return json.load(open(filename))
 
 
 def write_to_json(data, filename):
-    with open(filename, 'w') as file:
-        json.dump(data, file, indent=4)
+        json.dump(data, open(filename, 'w'), ensure_ascii=0, indent=4)
 
 
 data = {"Persons": []}
