@@ -33,3 +33,11 @@ print(jobs)
 jobs= map(len,jobs)
 print(list(jobs))
 
+
+
+# 3 на базе данных из датасета
+iris = datasets.load_iris()
+listic = list(iris.target_names)
+print(listic)
+x = map(len, listic)
+print(list(x))
