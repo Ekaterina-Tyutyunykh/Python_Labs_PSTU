@@ -1,11 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 from sklearn import datasets
-from sklearn import linear_model
-from sklearn.cluster import KMeans
-from sklearn import metrics
-from pandas import DataFrame
+
 
 
 #1 на базе данных введенных вручную
